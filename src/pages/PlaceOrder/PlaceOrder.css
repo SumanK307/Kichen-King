@@ -1,0 +1,60 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 60px;
+}
+.place-order-left{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.place-order-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: #f64385;
+}
+.place-order-left .multi-fields{
+    display: flex;
+    gap:10px;
+}
+.cart-total1{
+    width: 100%;
+    max-width: max(40%,500px);
+}
+.cart-total1 h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.cart-total-details{
+    font-size: 20px;
+    margin-top: 47px;
+}
+
+.cart-total1 button{
+    border:none;
+    color:white;
+    background-color: #f64385;
+    width: max(15vw,200px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+@media(max-width:750px){
+    .cart-total1{
+        width:max(10vw,120px);
+    }
+    .cart-total1 button{
+        width:max(10vw,120px);
+        margin: none;
+    }
+}
